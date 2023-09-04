@@ -1,0 +1,102 @@
+body{
+    font-size: 16px;
+    color: #2b283a;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+header{
+    background-color: #5f29a3;
+    padding: 45px 0;
+}
+.nfc-title{
+    font-size: 36px;
+    color: whitesmoke;
+    margin: 0;
+   
+}
+.nfc-des{
+    font-size: 20px;
+    color: #d0aaff;
+    margin: 0;
+}
+
+.purpleSneakers{
+    width: 100%;
+}
+section{
+    padding: 45px 0;
+}
+h2{
+    /*for default the h2 size is 24px*/
+    margin-top: 0;
+}
+
+.pLink{
+    text-decoration: underline dotted;
+    color: #ef5839;
+}
+.pLink:hover,.pLink:active{
+    color: #d4b44c;
+}
+
+.container{
+    width: 620px;
+    margin: 0 auto;
+}
+ 
+.second{
+    color: whitesmoke;
+    background: #5f29a3;
+}
+ 
+.second-section-images{
+    border-radius: 4.6px;
+    width: 300px;
+
+}
+.second-section-images-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer{
+    text-align: center;
+    padding: 45px 0;
+    color: #5f29a3;
+}
+
+p{
+    line-height: 25px ;
+}
+
+
+.btn{
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;/*it will give the inline links the block property */
+    margin: 10px;
+}
+
+.btn-dark{
+    background-color: #5f29a3;
+    color: whitesmoke;
+}
+
+.btn-mid{
+    background-color: #f0e0ff;
+    color: #5f29a3;
+}
+
+.btn-light{
+    background-color: #ffceff;
+    color: #5f29a3;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #e2afff;
+    color: #2b283a;
+}
